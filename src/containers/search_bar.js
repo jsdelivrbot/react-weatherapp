@@ -6,7 +6,7 @@ import { fetchWeather } from '../actions/index';
 class SearchBar extends Component {
 	constructor(props){
 		super(props);
-		this.state = { term: '' };
+		this.state = { term: 'san francisco' };
 		this.onInputChange = this.onInputChange.bind(this);
 		this.onFormSubmit = this.onFormSubmit.bind(this);
 	}
